@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arq. Roberto Carlos García Sánchez | Dashboard Profesional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans">
+
+  <!-- Header / Hero -->
+  <header class="bg-slate-900 text-white py-10 px-6 shadow-lg">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-6">
+        <img src="foto-roberto.jpg" alt="Arq. Roberto Carlos García" class="w-28 h-28 rounded-full border-4 border-amber-500 object-cover shadow-md">
+        <div>
+          <h1 class="text-3xl font-bold">Arq. M. en C. Roberto Carlos García Sánchez</h1>
+          <p class="text-amber-400 font-medium">Especialista BIM | Estructura Metálica | Infraestructura Industrial</p>
+          <p class="text-sm text-slate-400 mt-1"><i class="fa-solid fa-id-card"></i> Cédula: 11568529 | <i class="fa-solid fa-location-dot"></i> Cuernavaca, Morelos (Disponible para Movilidad)</p>
+        </div>
+      </div>
+      <div class="flex flex-col gap-2 w-full md:w-auto">
+        <a href="mailto:arq.robertocarlosgs@gmail.com" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-2 px-4 rounded text-center transition"><i class="fa-solid fa-envelope"></i> Contactar por Correo</a>
+        <a href="tel:7351437236" class="bg-slate-800 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded text-center border border-slate-700 transition"><i class="fa-solid fa-phone"></i> 735 143 7236</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dashboard Main Grid -->
+  <main class="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <!-- KPI / Métricas Clave -->
+    <section class="md:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-white p-5 rounded-xl shadow border-l-4 border-amber-500">
+        <p class="text-xs text-slate-500 uppercase font-bold">Experiencia</p>
+        <p class="text-2xl font-black text-slate-800">+12 Años</p>
+        <p class="text-xs text-slate-400 mt-1">Coordinación y Supervisión</p>
+      </div>
+      <div class="bg-white p-5 rounded-xl shadow border-l-4 border-blue-600">
+        <p class="text-xs text-slate-500 uppercase font-bold">Montaje Máximo</p>
+        <p class="text-2xl font-black text-slate-800">24,634 Ton</p>
+        <p class="text-xs text-slate-400 mt-1">Estructura Acería Ternium</p>
+      </div>
+      <div class="bg-white p-5 rounded-xl shadow border-l-4 border-emerald-500">
+        <p class="text-xs text-slate-500 uppercase font-bold">Grado Académico</p>
+        <p class="text-2xl font-black text-slate-800">Maestría</p>
+        <p class="text-xs text-slate-400 mt-1">Estudios Territoriales (UAEM)</p>
+      </div>
+      <div class="bg-white p-5 rounded-xl shadow border-l-4 border-purple-600">
+        <p class="text-xs text-slate-500 uppercase font-bold">Metodología</p>
+        <p class="text-2xl font-black text-slate-800">Certificado BIM</p>
+        <p class="text-xs text-slate-400 mt-1">Lean Construction México</p>
+      </div>
+    </section>
+
+    <!-- Columna Principal: Experiencia Destacada -->
+    <section class="md:col-span-2 space-y-6">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-bold text-slate-800 border-b pb-3 mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-helmet-safety text-amber-500"></i> Trayectoria Profesional Clave
+        </h2>
+        
+        <div class="space-y-6">
+          <!-- Puesto 1 -->
+          <div class="border-l-2 border-slate-200 pl-4 relative">
+            <div class="absolute -left-1.5 top-1.5 w-3 h-3 bg-amber-500 rounded-full"></div>
+            <h3 class="font-bold text-slate-800">Supervisor de Montaje / Gestor BIM</h3>
+            <p class="text-xs font-semibold text-amber-600">EQUIPOS WP | Ago 2024 - Actual (Pesquería, N.L.)</p>
+            <p class="text-sm text-slate-600 mt-2">Supervisión en obra para el montaje de 24,634 toneladas de estructura metálica en la Nueva Acería Ternium. Gestión de modelos BIM para prevención de interferencias operativas y cumplimiento STPS.</p>
+          </div>
+
+          <!-- Puesto 2 -->
+          <div class="border-l-2 border-slate-200 pl-4 relative">
+            <div class="absolute -left-1.5 top-1.5 w-3 h-3 bg-slate-400 rounded-full"></div>
+            <h3 class="font-bold text-slate-800">Residente de Obra (Terracerías)</h3>
+            <p class="text-xs font-semibold text-slate-500">ESMEBA BUILDER | Feb 2024 - Ago 2024 (Querétaro)</p>
+            <p class="text-sm text-slate-600 mt-2">Coordinación del frente de terracerías para el Data Center ASU 02 de MICROSOFT. Operación de maquinaria pesada bajo normas estrictas de seguridad STPS.</p>
+          </div>
+
+          <!-- Puesto 3 -->
+          <div class="border-l-2 border-slate-200 pl-4 relative">
+            <div class="absolute -left-1.5 top-1.5 w-3 h-3 bg-slate-400 rounded-full"></div>
+            <h3 class="font-bold text-slate-800">Coordinador de Proyectos (Estructura Metálica)</h3>
+            <p class="text-xs font-semibold text-slate-500">EQUIPOS WP | Mayo 2023 - Feb 2024 (San Luis Potosí)</p>
+            <p class="text-sm text-slate-600 mt-2">Dirección técnica en montaje de 2,400 toneladas de estructura metálica en Nave Daikin MX. Control financiero del frente y cronogramas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Columna Lateral: Habilidades & Software -->
+    <section class="space-y-6">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-bold text-slate-800 border-b pb-3 mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-laptop-code text-blue-600"></i> Software & Herramientas
+        </h2>
+        <div class="space-y-3">
+          <div>
+            <div class="flex justify-between text-xs font-bold mb-1"><span>Revit / Tekla / Archicad</span><span>BIM</span></div>
+            <div class="w-full bg-slate-200 rounded-full h-2"><div class="bg-blue-600 h-2 rounded-full w-11/12"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs font-bold mb-1"><span>Neodata / MS Project</span><span>APUs & Costos</span></div>
+            <div class="w-full bg-slate-200 rounded-full h-2"><div class="bg-amber-500 h-2 rounded-full w-11/12"></div></div>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs font-bold mb-1"><span>AutoCAD / CivilCAD / Cypecad</span><span>Técnico</span></div>
+            <div class="w-full bg-slate-200 rounded-full h-2"><div class="bg-emerald-500 h-2 rounded-full w-9/12"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow">
+        <h2 class="text-xl font-bold text-slate-800 border-b pb-3 mb-4 flex items-center gap-2">
+          <i class="fa-solid fa-certificate text-purple-600"></i> Competencias
+        </h2>
+        <ul class="text-sm space-y-2 text-slate-700">
+          <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Normatividad STPS</li>
+          <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Liderazgo de Frentes Masivos</li>
+          <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Control Financiero y Cierre</li>
+          <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Inglés Intermedio</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
